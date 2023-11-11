@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from "next/image";
-import Link from "next/link";
-import { FiThumbsUp } from "react-icons/fi";
+import Image from "next/image"
+import Link from "next/link"
+import { FiThumbsUp } from "react-icons/fi"
 
 function Card({ result }) {
     return (
@@ -17,7 +17,7 @@ function Card({ result }) {
                     style={{
                         maxWidth: "100%",
                         height: "auto",
-                        maxHeight:"150px"
+                        maxHeight: "150px"
                     }}
                     placeholder="blur"
                     blurDataURL="/loading.svg"

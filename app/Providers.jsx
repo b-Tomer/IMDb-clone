@@ -10,7 +10,6 @@ function Providers({ children }) {
          text-gray-700 transition-colors duration-300 min-h-screen select-none'>
                 {children}
             </div>
-
         </ThemeProvider>
     )
 }
