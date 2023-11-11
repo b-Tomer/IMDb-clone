@@ -17,7 +17,7 @@ function Card({ result }) {
                     style={{
                         maxWidth: "100%",
                         height: "auto",
-                        maxHeight: "150px"
+                        maxHeight: "200px"
                     }}
                     placeholder="blur"
                     blurDataURL="/loading.svg"
